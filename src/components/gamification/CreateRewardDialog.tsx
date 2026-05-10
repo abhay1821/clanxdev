@@ -119,6 +119,7 @@ export function CreateRewardDialog() {
                   type="button"
                   onClick={() => {
                     console.log("[Create Reward] form", rewardFormSnapshot);
+                    dispatch(closeRewardDialog());
                   }}
                 >
                   Create Reward

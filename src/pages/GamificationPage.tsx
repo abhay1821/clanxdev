@@ -9,7 +9,7 @@ export function GamificationPage() {
 
   return (
     <section className="mx-auto w-full max-w-6xl">
-      <div className="relative overflow-hidden rounded-card max-w-[950px]">
+      <div className="relative mx-auto w-full max-w-[950px] overflow-hidden rounded-card">
         <div className="pointer-events-none absolute inset-0  w-full">
           <GamificationBackgroundSvg />
         </div>
